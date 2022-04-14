@@ -1,6 +1,8 @@
 module br.com.alura.nf {
 	
-	requires br.com.alura.modelo;
+	requires transitive br.com.alura.modelo;
+	
+	requires br.com.alura;
 	
 	exports br.com.alura.nf.util;
 }
